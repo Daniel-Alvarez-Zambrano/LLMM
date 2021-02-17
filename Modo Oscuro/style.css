@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#contenedor{
+	height: 100vh;
+	padding: 15px;
+	text-align: justify;
+}
+	 
+.modoClaro{
+	background: white;
+	color: black;
+}
+
+.modoOscuro{
+	background: black;
+	color: white;
+}
+
+
+#botonModo{
+	/*Posicionarlo en la esquina inferior derecha y quede fijo*/
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+
+	padding: 10px;
+	margin: 10px;
+	background: #c6c6ff;
+}

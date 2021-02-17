@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.globo{
+	position: fixed;
+	font-size: 50px;
+	animation: subir 3s linear forwards; 
+}
+
+.contenedor{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+#botonClick{
+	padding: 10px;
+	margin: 10px;
+	background: red;
+	color: white;
+}
+
+
+@keyframes subir {
+	from{
+		transform: translateY(110vh);
+	}
+	to{
+		transform: translateY(-15vh);
+	}
+}
