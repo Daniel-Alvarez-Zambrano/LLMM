@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulario con Array</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="script.js" defer></script>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div class="contenedor">
+			<form onsubmit="return mostrar();">
+				<div> Nombre: <input type="text" id="nombre"> </div>
+				<hr>
+
+				<div> Apellidos: <input type="text" id="apellidos"> </div>
+				<hr>
+
+				<div> DNI: <input type="text" id="dni"> </div>
+				<hr>
+
+				<div><select id="estado">
+					<option value="parado">Parado</option>
+					<option value="estudiante">Estudiante</option>
+					<option value="trabajando">Trabajando</option>
+				</select></div>
+				<hr>
+
+				<div>
+					<div>deportes <input type="radio" name="hobby" value="deportes"></div>
+					<div>leer <input type="radio" name="hobby" value="leer"></div>
+					<div>viajar <input type="radio" name="hobby" value="viajar"></div>
+				</div>
+				<hr>
+
+				<div>
+					<label>Fecha de nacimiento:</label>
+					<input type="date" id="nacimiento">
+				</div>
+				<hr>
+
+				<div>
+					<label>¿Aceptas las condiciones?</label>
+					<input type="checkbox" id="condiciones">
+				</div>
+				<hr>
+
+				<div> <input id="boton" name="submit" type="submit"></div>
+				<hr>
+
+				<div><center> <textarea id="resultado" class="invisible"></textarea> </center></div>
+
+		  </form>
+		</div>
+	</body>
+</html>

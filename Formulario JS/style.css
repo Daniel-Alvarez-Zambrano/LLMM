@@ -1,0 +1,41 @@
+*{
+	margin:0 auto;
+	padding:0 auto;
+}
+.contenedor{
+	background-color: #FBAA35;
+	padding: 20px;
+	margin-top:5vh;
+	margin-bottom:5vh;
+	width: 32%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	border-width: 5px;
+	border-color: black;
+	border-style: solid;
+}
+div{
+	padding: 5px; 
+}
+hr{
+	margin:5px;
+}
+.boton{
+	text-align:center;
+	z-index:all;
+}
+.invisible{
+	visibility: hidden;
+}
+
+.visible{
+	visibility: visible;
+}
+textarea{
+	width: 268px;
+	height: 65px;
+}
+
+
+
