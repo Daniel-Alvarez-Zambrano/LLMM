@@ -1,5 +1,4 @@
-{
-	"Tiempo Atmosférico": [
+
      {
      	"Nombre": "Badajoz",
          "Estado del día": [
@@ -31,6 +30,4 @@
             }
           }
      	]
-     }
-	]
 }
