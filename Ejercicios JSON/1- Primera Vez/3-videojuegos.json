@@ -1,0 +1,25 @@
+{
+	"videojuegos": [
+		{
+           "Nombre": "League of Legends",
+           "Autor": "Riot Games",
+           "Género": "MOBA",
+           "Precio": 0,
+           "Imagen": "https://esports.eldesmarque.com/wp-content/uploads/2019/09/LoL2.jpg"
+		},
+    {
+           "Nombre": "GTA",
+           "Autor": "Rockstar Games",
+           "Género": "Acción-Aventura",
+           "Precio": 15,
+           "Imagen": "https://esports.eldesmarque.com/wp-content/uploads/2019/09/LoL2.jpg"
+    },
+    {
+           "Nombre": "Minecraft",
+           "Autor": "Microsoft",
+           "Género": "Sandbox",
+           "Precio": 17,
+           "Imagen": "https://i.blogs.es/d70ee6/minecraft/450_1000.jpeg"
+    }
+	]
+}

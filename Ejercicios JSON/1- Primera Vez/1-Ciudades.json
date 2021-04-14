@@ -1,0 +1,34 @@
+{
+	"ciudades": [
+		{
+           "Comunidad Autónoma": "Cataluña",
+           "Provincia": "Barcelona",
+           "Latitud": 41.3879,
+           "Longitud": 2.16992
+		},
+		{
+           "Comunidad Autónoma": "Extremadura",
+           "Provincia": "Badajoz",
+           "Latitud": 38.5286,
+           "Longitud": -6.44985 
+		},
+		{
+           "Comunidad Autónoma": "Andalucía",
+           "Provincia": "Sevilla",
+           "Latitud": 37.3826,
+           "Longitud": -5.99629
+		},
+		{
+           "Comunidad Autónoma": "Aragón",
+           "Provincia": "Zaragoza",
+           "Latitud": 41.6563,
+           "Longitud": -0.876566
+		},
+		{
+           "Comunidad Autónoma": "Valenciana",
+           "Provincia": "Valencia",
+           "Latitud": 39.4702,
+           "Longitud":  -0.376805
+		}
+	]
+}
