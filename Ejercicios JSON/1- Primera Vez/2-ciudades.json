@@ -1,0 +1,19 @@
+{
+	"ciudades": [
+		{
+           "Nombre": "Almendralejo",
+           "País": "España",
+           "Continente": "Europa"
+		},
+    {
+           "Nombre": "Tokio",
+           "País": "Japón",
+           "Continente": "Ásia"
+    },
+    {
+           "Nombre": "Lisboa",
+           "País": "Portugal",
+           "Continente": "Europa"
+    }
+	]
+}
