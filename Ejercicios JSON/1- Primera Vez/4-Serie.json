@@ -1,0 +1,61 @@
+{
+	"protagonistas": [
+		{
+      "Nombre": "Walter White",
+      "Serie": "Breaking bad",
+      "Mejores capítulos": [
+         {
+           "Nombre del capítulo": "El gato está en la bolsa",
+           "id": 2,
+         },
+         {
+           "Nombre del capítulo": "Phoenix",
+           "id": 19,
+         },
+         {
+           "Nombre del capítulo": "Fly",
+           "id": 30,
+         }
+      ],
+      "imagen": "https://www.seriemaniac.com/wp-content/uploads/2014/01/episodio-fly-de-breaking-bad-1024x576.jpg"
+    },
+    {
+      "Nombre": "Jesse Pinkman",
+      "Serie": "Breaking bad",
+      "Mejores capítulos": [
+         {
+           "Nombre del capítulo": "Medida completa",
+           "id": 33,
+         },
+         {
+           "Nombre del capítulo": "Crawl Space ",
+           "id": 44,
+         },
+         {
+           "Nombre del capítulo": "Felina",
+           "id": 62,
+         }
+      ],
+      "imagen": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jesse-pinkman-breaking-bad-1541670550.jpg"
+    },
+    {
+      "Nombre": "Hank Schrader",
+      "Serie": "Breaking bad",
+      "Mejores capítulos": [
+         {
+           "Nombre del capítulo": "Deslizándose sobre todo",
+           "id": 54,
+         },
+         {
+           "Nombre del capítulo": "Ozymandias",
+           "id": 60,
+         },
+         {
+           "Nombre del capítulo": "To’hajiilee",
+           "id": 59,
+         }
+      ],
+      "imagen": "https://elcomercio.pe/resizer/rE39aSGp0w84my0Ev8qOF6ZGBF4=/580x330/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/OY6NJBGBFBHQRD65GTTD3EAA34.png"
+    }
+	]
+}
