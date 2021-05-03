@@ -1,0 +1,60 @@
+{
+	"ciudad": "Almendralejo",
+	"dias" : [
+          {
+             "dia" : 2,
+             "temperatura" : 26,
+             "viento": 15,
+             "humedad": 32,
+             "estado":
+                {
+                	"nombre": "soleado",
+                	"icono" : "./img/soleado.png"
+                }
+          }, 
+          {
+             "dia" : 3,
+             "temperatura" : 17,
+             "viento": 11,
+             "humedad": 47,
+             "estado":
+                {
+                	"nombre": "nublado",
+                	"icono" : "./img/nublado.png"
+                }
+          },
+          {
+             "dia" : 4,
+             "temperatura" : 27,
+             "viento": 13,
+             "humedad": 34,
+             "estado":
+                {
+                	"nombre": "soleado",
+                	"icono" : "./img/soleado.png"
+                }
+          },
+          {
+             "dia" : 5,
+             "temperatura" : 15,
+             "viento": 18,
+             "humedad": 57,
+             "estado":
+                {
+                	"nombre": "niebla",
+                	"icono" : "./img/niebla.png"
+                }
+          },
+          {
+            "dia" : 6,
+             "temperatura" : 22,
+             "viento": 23,
+             "humedad": 53,
+             "estado":
+                {
+                	"nombre": "lluvia",
+                	"icono" : "./img/lluvia.png"
+                }
+          } 
+	]
+}

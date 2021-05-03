@@ -1,0 +1,61 @@
+{
+	"protagonistas": [
+		{
+      "Nombre": "Walter White",
+      "Serie": "Breaking bad",
+      "Mejores capítulos": [
+         {
+           "Nombre del capítulo": "El gato está en la bolsa",
+           "id": 2
+         },
+         {
+           "Nombre del capítulo": "Phoenix",
+           "id": 19
+         },
+         {
+           "Nombre del capítulo": "Fly",
+           "id": 30
+         }
+      ],
+      "imagen": "https://images0.persgroep.net/rcs/CPCX2KntMeGkl3FkcsGft7AF7rw/diocontent/57274620/_crop/56/0/838/474/_fitwidth/763?appId=93a17a8fd81db0de025c8abd1cca1279&quality=0.8"
+    },
+    {
+      "Nombre": "Jesse Pinkman",
+      "Serie": "Breaking bad",
+      "Mejores capítulos": [
+         {
+           "Nombre del capítulo": "Medida completa",
+           "id": 33
+         },
+         {
+           "Nombre del capítulo": "Crawl Space ",
+           "id": 44
+         },
+         {
+           "Nombre del capítulo": "Felina",
+           "id": 62
+         }
+      ],
+      "imagen": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jesse-pinkman-breaking-bad-1541670550.jpg"
+    },
+    {
+      "Nombre": "Hank Schrader",
+      "Serie": "Breaking bad",
+      "Mejores capítulos": [
+         {
+           "Nombre del capítulo": "Deslizándose sobre todo",
+           "id": 54
+         },
+         {
+           "Nombre del capítulo": "Ozymandias",
+           "id": 60
+         },
+         {
+           "Nombre del capítulo": "To’hajiilee",
+           "id": 59
+         }
+      ],
+      "imagen": "https://www.gannett-cdn.com/presto/2020/02/27/USAT/b7f85de2-9847-4993-8b2d-3d6daf68cd4c-BCS_503_GL_0514_0600_RT.jpg"
+    }
+	]
+}
