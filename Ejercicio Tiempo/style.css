@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#contenedor{ 
+    width: 100%;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #11134D; 
+}
+
+#parte_izquierda{ 
+    width: 35%;
+    height: 100vh;
+    background-color: #24276E;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+        .hoy{
+            width: 90%;
+            height: 90vh;
+            background-color: #24276E;
+            
+
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+            .img-dia-actual{
+              width: 35vh;
+              height: 35vh;
+              margin:2.36vh 0 5vh 0;
+            }
+
+            .temperatura-dia-actual{
+              font-size: 13vh;
+              margin: 4vh 4vh 4vh 4vh;
+            }
+
+            .estado-nombre-dia{
+                font-size: 4vh;
+                margin-bottom: 9vh;
+            }
+
+            .ciudad{
+              text-decoration: underline;
+            }
+
+#parte_derecha{ 
+    width: 65%; 
+    height: 100vh;
+    background-color: #11134D; 
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+    .pronosticos{
+        width: 90%;
+        height: 25vh;
+        background-color: #11134D;
+        margin: 20px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+            .dias{
+                width: 35%;
+                height: 23vh;
+                background-color: #3A3FCC;
+                margin: 5px;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+
+                .dia{
+                 text-decoration: underline;
+                }
+
+                .img-dia{
+                 width: 10.078vh;
+                 height: 10.078vh;
+                 margin: 2.83vh 0 2.83vh 0;
+                }
+
+    .extra{
+        width: 90%;
+        height: 43vh;
+        background-color: #11134D;
+        margin: 20px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+            .datos-viento, .datos-humedad{
+                width: 45%;
+                height: 20vh;
+                background-color: #3A3FCC;
+                margin: 7px;
+                
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+
+                .viento, .humedad{
+                font-size: 4vh;
+                margin: 1vh;
+                }
+
+                .viento-dia, .humedad-dia{
+                font-size: 7.5vh; 
+                }
+
+
+
+@media (max-width: 750px){
+
+    #contenedor{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    }
+
+    #parte_izquierda{ 
+    width: 100vw;
+    height: 50vh;
+    }
+        .hoy{
+            height: 43vh;
+        }
+
+            .img-dia-actual{
+              width: 20vh;
+              height: 20vh;
+              margin: 1vh 0 1vh 0;
+            }
+
+            .temperatura-dia-actual{
+              font-size: 8vh;
+              margin: 2vh 0 0 0;
+            }
+
+            .estado-nombre-dia{
+                font-size: 5vh;
+                margin-bottom: 0.5vh;
+            }
+
+            .ciudad{
+              text-decoration: underline;
+            }
+
+    #parte_derecha{ 
+    width: 100%;
+    height: 100%;
+    }
+        .pronosticos{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+        height: 100%;
+        }
+            .dias{
+            height: 25vh;
+            width: 25vh; 
+            }
+
+        .extra{
+        display: flex;
+        flex-direction: column;
+
+        height: 100%;
+        }
+            .datos-viento, .datos-humedad{
+            height: 25vh; 
+            width: 43vh;
+            }
+}
