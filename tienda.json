@@ -1,0 +1,65 @@
+{
+	"nombre": "Sport shop",
+	"ciudad": "Mérida",
+	"contacto": "JonyMelavo@gmail.com",
+	"propietario": "Jony Melavo",
+	"articulos": [
+		{
+			"camisetas": [
+				{
+					"Tipo": "Manga corta",
+					"Marca": "Mike",
+					"Tallas": "S, M y L"
+				},
+				{
+					"Tipo": "Manga larga",
+					"Marca": "Addidas",
+					"Tallas": "M y L"
+				},
+				{
+					"Tipo": "Sin mangas",
+					"Marca": "Gordan",
+					"Tallas": "M, L y XL"
+				}
+			]
+		},
+		{
+			"pantalones": [
+				{
+					"Tipo": "Cortos",
+					"Marca": "Gordan",
+					"Tallas": "S, M y XL"
+				},
+				{
+					"Tipo": "Cortos",
+					"Marca": "Mike",
+					"Tallas": "S y M"
+				},
+				{
+					"Tipo": "Largos",
+					"Marca": "Addidas",
+					"Tallas": "M y XL"
+				}
+			]
+		},
+		{
+			"zapatillas": [
+				{
+					"Tipo": "Baloncesto",
+					"Marca": "Gordan",
+					"Tallas": "41, 43, 45"
+				},
+				{
+					"Tipo": "Futbol",
+					"Marca": "Messirve",
+					"Tallas": "40, 41, 42"
+				},
+				{
+					"Tipo": "Baloncesto",
+					"Marca": "Mike",
+					"Tallas": "44, 45, 46"
+				}
+			]
+		},
+	]
+}
